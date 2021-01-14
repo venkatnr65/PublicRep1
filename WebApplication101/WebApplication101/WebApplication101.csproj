@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="NewForm.aspx" />
+    <Content Include="NewForm2.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -193,6 +194,13 @@
     </Compile>
     <Compile Include="NewForm.aspx.designer.cs">
       <DependentUpon>NewForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewForm2.aspx.cs">
+      <DependentUpon>NewForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewForm2.aspx.designer.cs">
+      <DependentUpon>NewForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
